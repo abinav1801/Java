@@ -27,7 +27,7 @@ class frequency
         for(int i = 0 ; i < size ; i++)
         {
             if (counted[i]) continue;
-            
+
             count = 1;
             for(int j = i+1 ; j < size ; j++ )
             {
@@ -40,6 +40,8 @@ class frequency
 
              System.out.println("Item " + arr[i] + ": " + count + (count == 1 ? " time" : " times"));
         }
+
+        input.close();
 
     }
 
