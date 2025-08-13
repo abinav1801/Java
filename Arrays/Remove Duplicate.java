@@ -29,7 +29,7 @@ class duplicate
             boolean is_dup = false;
             for (int j = 0 ; j < res_size ; j++)
             {
-                if(arr[i] == arr[j])
+                if(arr[i] == arr[j]) 
                 {
                     is_dup = true;
                     break;
