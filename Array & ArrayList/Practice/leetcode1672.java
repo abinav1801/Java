@@ -37,6 +37,7 @@ Constraints:
     1 <= accounts[i][j] <= 100
 */
 
+
 import java.util.Scanner;
 
 public class leetcode1672 {
