@@ -29,7 +29,7 @@ public class cyclicsort {
     static void cyclicSort(int[] arr){
         int i = 0;
         while(i < arr.length - 1){
-            int correct = arr[i] - 1;
+            int correct = arr[i]; //for the array starts from 0 if it starts from 1 use arr[i] - 1
             if(arr[i] != arr[correct]){
                 swap(arr , i , correct);
             }
